@@ -61,7 +61,8 @@ CONFIG_CLOCK_CONTROL_NRF_K32SRC_XTAL=y
 CONFIG_ZMK_RGB_UNDERGLOW=y
 
 # disable EXT_POWER until underglow gets turned on
-CONFIG_ZMK_EXT_POWER_START=n
+# unknown symbol from mainline ZMK: leave it commented for now
+### CONFIG_ZMK_EXT_POWER_START=n
 
 CONFIG_ZMK_RGB_UNDERGLOW_EXT_POWER=y
 CONFIG_ZMK_RGB_UNDERGLOW_ON_START=n
