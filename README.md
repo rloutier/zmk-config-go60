@@ -5,7 +5,7 @@ This repo serves as a "companion-repo" to [aekeynox], ZMK implementation of [Sel
 The content of this repo is essentially a small extract of the official [MoErgo fork of ZMK][moergo-zmk]
 for the specific `zephir-4-1` branch, structured as a "ZMK user config".
 
-> **WARNING**  
+> [!IMPORTANT]
 > - This is not a standalone repo to build firmwares from; for this purpose, you might want to have a look at the [official MoErgo Go60 configuration repo][moergo-conf], or [aekeynox] itself
 > - Using this repo config along-side aekeynox, some caracteristics of Go60 keyboard will be lost :
 >   - RGB backlight
